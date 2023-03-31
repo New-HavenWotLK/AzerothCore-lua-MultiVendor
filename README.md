@@ -2,7 +2,10 @@ AzerothCore-lua-MultiVendor script written by Psychonautek(Krisande#5411 on Disc
 
 Multivendor Module written in Lua for Azerothcore with SQL file to insert the npc into your AzerothCore database! 
 
+The code is well documented so you easily can edit and extend it! You will also have to state vendor id's in the script first. so open it up and look where stuff is to change (it is highlighted with a comment line)!
+
 If u want to use the LUA script on TrinityCore read the description to get it working!
+
 
 
 
