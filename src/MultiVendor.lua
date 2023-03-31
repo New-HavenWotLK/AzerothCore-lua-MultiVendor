@@ -9,7 +9,7 @@ local VENDOR_ID2                = -- insert another vendor id from npc_vendor ta
 
 -- in case you want to add more vendors just add them via local VENDOR_ID3, local VENDOR_ID4 and so on =)
 
-local function VendorOnGossipHello(event, player, creature)
+local function MultiVendorOnGossipHello(event, player, creature)
     player:GossipClearMenu()
     player:GossipMenuAddItem(1, "Change the text here!", 1, 1)
     player:GossipMenuAddItem(1, "Change the text here!", 1, 2)
@@ -18,7 +18,7 @@ local function VendorOnGossipHello(event, player, creature)
     player:GossipSendMenu(1, creature, 1)
 end
 
-local function VendorOnGossipSelect(event, player, creature, sender, intid, code, menu_id)
+local function MultiVendorOnGossipSelect(event, player, creature, sender, intid, code, menu_id)
     if (intid == 1) then
         player:SendListInventory(creature, VENDOR_ID1) 
     elseif (intid == 2) then
@@ -30,5 +30,5 @@ local function VendorOnGossipSelect(event, player, creature, sender, intid, code
     end
 end
 
-RegisterCreatureGossipEvent(NPC_MULTIVENDOR, EVENT_ONGOSSIPHELLO, VendorOnGossipHello)
-RegisterCreatureGossipEvent(NPC_MULTIVENDOR, EVENT_ONGOSSIPSELECT, VendorOnGossipSelect)
+RegisterCreatureGossipEvent(NPC_MULTIVENDOR, EVENT_ONGOSSIPHELLO, MultiVendorOnGossipHello)
+RegisterCreatureGossipEvent(NPC_MULTIVENDOR, EVENT_ONGOSSIPSELECT, MultiVendorOnGossipSelect)
