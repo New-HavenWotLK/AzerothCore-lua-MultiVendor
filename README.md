@@ -25,3 +25,5 @@ Afterwards you can use the Lua script of mine for Trinitycore as well! =)
 NPC database sided you will have to create your own since i had no trinity database available on creation.. sorry! =)
 
 
+LuaEngine change got cherrypicked from @Noisivers pullreqeust which was for the mod-eluna for AzerothCore
+
