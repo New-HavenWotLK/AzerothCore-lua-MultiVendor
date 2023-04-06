@@ -11,7 +11,7 @@ If u want to use the LUA script on TrinityCore read the description to get it wo
 
 !!Description for TrinityCore!!
 
-You will need to grab an edited Playermethods.h from elunaengine, ItemHandler.cpp as well as Worldsessio.h. You can find the needed files at the following site to download:
+You will need to grab an edited Playermethods.h from elunaengine, ItemHandler.cpp as well as Worldsession.h. You can find the needed files at the following site to download:
 
 https://drive.google.com/file/d/1mQ5xNkZ1I_02A8UXNNnLDztOCCfM8a-E/view?usp=share_link
 
