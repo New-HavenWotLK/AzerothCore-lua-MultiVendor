@@ -11,15 +11,11 @@ If u want to use the LUA script on TrinityCore read the description to get it wo
 
 !!Description for TrinityCore!!
 
-You will need to grab an edited Playermethods.h from elunaengine, ItemHandler.cpp as well as Worldsession.h. You can find the needed files at the following site to download:
 
-https://drive.google.com/file/d/1mQ5xNkZ1I_02A8UXNNnLDztOCCfM8a-E/view?usp=share_link
+After you have downloaded the repo you will need to unpack the trinity only 7z file!
 
+Follow the Instructions given inside the Readme.txt and recompile your server!
 
-After you have downloaded the file you will need to unpack it! Follow the Instructions given inside the Readme.txt and recompile your server!
-
-
-NPC database sided you will have to create your own since i had no trinity database available on creation.. sorry! =)
 
 
 [CREDITS]:
